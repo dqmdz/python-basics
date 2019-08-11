@@ -1,2 +1,5 @@
 def roman_to_decimal(roman_number):
-    return 1
+    if roman_number == 'I':
+        return 1
+    if roman_number == 'II':
+        return 2
